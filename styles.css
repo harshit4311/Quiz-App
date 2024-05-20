@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: lightblue;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.button-yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.button-yellow:hover {
+    background-color: #d4d400;
+}
+
+.button-white {
+    background-color: white;
+    color: black;
+}
+
+.button-white:hover {
+    background-color: #e0e0e0;
+}
+
+.game-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.hud {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.choice {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.choice:hover {
+    background-color: #d4d4d4;
+}
+
+#progressBar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+#progress {
+    background-color: gold;
+    height: 20px;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+.correct {
+    background-color: green !important;
+    color: white;
+}
+
+.incorrect {
+    background-color: red !important;
+    color: white;
+}
+
+.container a.button {
+    margin: 10px;
+}
